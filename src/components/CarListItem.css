@@ -1,0 +1,56 @@
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    max-width: 350px;
+    padding: 14px;
+    border: 1px solid #868686cc;
+    border-radius: 24px;
+    margin: 10px;
+    box-shadow: #868686 0px 0px 20px -4px;
+}
+
+.car__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car__detail {
+    margin-top: 10px;
+}
+
+.car__title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.car__name {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.car__owner {
+    font-size: 14px;
+    margin: auto 0 5px 0;
+    font-style: italic;
+}
+
+.car__info-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.car__info-item {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 5px);
+    padding: 10px 0;
+    border: 2px solid #86868695;
+    border-radius: 10px;
+}
